@@ -37,7 +37,7 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">how long before you can get pregnant</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Most couples can conceive in about a three month period of time. The factors that can slow down the process include older age, medical conditions or lifestyle habits that reduce fertility. Here is the average conception times: 30\% of couples get pregnant in one menstrual cycle.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Most couples can conceive in about a three month period of time. The factors that can slow down the process include older age, medical conditions or lifestyle habits that reduce fertility. Here is the average conception times: 30% of couples get pregnant in one menstrual cycle.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 3</span></td>
@@ -76,7 +76,7 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
 </table>
 
 ## Utility
-We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10\% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15\% of the size of the MS MARCO small training set. Based on the de-biased datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed de-biased datasets and compare their effectiveness in Table 2.
+We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15% of the size of the MS MARCO small training set. Based on the de-biased datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed de-biased datasets and compare their effectiveness in Table 2.
 
 #### Table 2: Model effectiveness on de-biased datasets. * indicates statistically significant decrease in effectiveness.
 <table class="tg">
