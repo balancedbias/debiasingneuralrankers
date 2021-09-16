@@ -20,46 +20,57 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 1</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">when did winnie davis pass away</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">WINNIE DAVIS passed away. The obituary was featured in The Impartial Reporter on June 6, 2013.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">male sex hormones</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">In the male, the principal sex hormones are the androgens, of which  testosterone is the most important. The androgens are steroid  hormones produced mainly by the Leydig cells(interstitial cells  located near the seminiferous tubules) of the Testes.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">when did maya angelou die</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">13 of Maya Angelou's best quotes. Prolific American author, poet and civil rights activist Maya Angelou has died, according to media reports.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">which hormone is required to regulate uterine cycle</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">The regulation of both the ovarian and uterine cycles is the function of several gonadotropic and ovarian hormones. Among the most important of the gonadotropins are luteinizing hormone (LH) and follicle stimulating hormone (FSH), while the most crucial ovarian hormones are the androgens, estrogen and progesterone.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 2</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">bryan baeumler net worth</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$15 Million. Bryan Baeumler net worth: Brian Baeumler is a Canadian entrepreneur and TV star who has net worth of $15 million dollars.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">when to stop getting acne in boys</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Boys start to get acne at the age of approximately 12 years, with a range of 9 to 15 years old. As most girls will attest, boys on average mature later than girls. Early on in the onset of teen acne, the main lesions are blackheads and whiteheads.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">lesley stahl net worth</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lesley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.Lesley Stahl was born in Lynn, Massachusetts, and went on to graduate from Wheaton College.esley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">how long before you can get pregnant</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Most couples can conceive in about a three month period of time. The factors that can slow down the process include older age, medical conditions or lifestyle habits that reduce fertility. Here is the average conception times: 30\% of couples get pregnant in one menstrual cycle.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 3</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">where is ronald brown from</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Ronald Brown 13,811 people named Ronald Brown found in California, Florida and 50 other states. Click a state below to find Ronald more easily.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">average height of an adult male</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">The average height for the adult male is roughly 5'9 historically. The tallest man recorded being around 8'11 tall, and the shortest being around 1'10.5. A chart outlining average male heights around the world is illustrated in the following table.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">where is elizabeth blackwell from</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Elizabeth Blackwell 774 people named Elizabeth Blackwell found in North Carolina, Texas and 47 other states. Click a state below to find Elizabeth more easily.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">average height female</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">The average female height is roughly 5'4 historically-the tallest woman being 7'7.5 tall.A chart outlining average female heights around the world is illustrated in the following table average Male Height. The average height for the adult male is roughly 5'9 historically. The tallest man recorded being around 8'11 tall, and the shortest being around 1'10.5 (who is also the shortest known adult human).</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 4</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">who is samuel khouth</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Samuel Vincent Khouth (born October 5, 1971) is a Canadian voice actor and singer.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">vess carlos worth</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$15 Million. Bryan Baeumler net worth: Brian Baeumler is a Canadian entrepreneur and TV star who has net worth of \$15 million dollars.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">who was barbara stanwyck</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Barbara Stanwyck. Barbara Stanwyck (born Ruby Catherine Stevens; July 16, 1907 </span><span style="color:#000;background-color:transparent">January 20, 1990) was an American actress, model and dancer.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">lesley stahl net worth</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lesley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of \$20 million dollars.Lesley Stahl was born in Lynn, Massachusetts, and went on to graduate from Wheaton College.esley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.</span></td>
+  </tr>
+ <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 5</span></td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">can radiation help with prostate cancer</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">As with most prostate cancer treatments, external beam radiation therapy can also cause side effects. The severity can depend on the type of radiation, dose size, length of treatment and area of treatments.</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">does dhea help estrogen</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Combining DHEA and estrogen might cause symptoms of excess estrogen, such as nausea, headache and insomnia. Lithium. Use of DHEA with lithium might reduce the drug's effectiveness.</span></td>
   </tr>
 </tbody>
 </table>
@@ -83,29 +94,29 @@ We now show how combining our proposed query-document pairs with existing gold s
     <td class="tg-0lax" rowspan="5">BERT-base-uncased</td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Original Set</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3110</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3080</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="4"><br><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Augmented Datasets</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.05</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3133</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.74%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3100</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.65%</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.15</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3078</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-1.03%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3039</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-1.33%</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.25</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3036</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-2.38%</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3002</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-2.53%</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.35</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.2949</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-5.18%*</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.2905</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-5.68%*</span></td>
   </tr>
 </tbody>
 </table>
