@@ -76,9 +76,9 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
 </table>
 
 ## Utility
-We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10\% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15\% of the size of the MS MARCO small training set. Based on the augmented datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed augmented datasets and compare their effectiveness in Table 2.
+We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10\% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15\% of the size of the MS MARCO small training set. Based on the de-biased datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed de-biased datasets and compare their effectiveness in Table 2.
 
-#### Table 2: Model effectiveness on augmented datasets. * indicates statistically significant decrease in effectiveness.
+#### Table 2: Model effectiveness on de-biased datasets. * indicates statistically significant decrease in effectiveness.
 <table class="tg">
 <thead>
   <tr>
@@ -98,7 +98,7 @@ We now show how combining our proposed query-document pairs with existing gold s
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="4"><br><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Augmented Datasets</span></td>
+    <td class="tg-0lax" rowspan="4"><br><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">De-biased Datasets</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.05</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.3100</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.65%</span></td>
@@ -122,9 +122,9 @@ We now show how combining our proposed query-document pairs with existing gold s
 </table>
 
 ## Bias Measurement
-In order measure bias we use three widely adopted psychological and stereotypical gender bias measurement methods to show that decrease in bias happens effectively regardless of how gender biases are measured. We adopt two strategies to measure gender biases. The first approach relies on measuring differences observed across pairs of gender-affiliated queries. As you can see in Table 3, when the model is trained on the augmented dataset, the difference between psychological charactiristics of documents associated with male and female queries has decreased significantly.
+In order measure bias we use three widely adopted psychological and stereotypical gender bias measurement methods to show that decrease in bias happens effectively regardless of how gender biases are measured. We adopt two strategies to measure gender biases. The first approach relies on measuring differences observed across pairs of gender-affiliated queries. As you can see in Table 3, when the model is trained on the de-biased dataset, the difference between psychological charactiristics of documents associated with male and female queries has decreased significantly.
 
-#### Table 3: Impact of training on augmented dataset on the difference in psychological characteristics of gender-affiliated queries.
+#### Table 3: Impact of training on de-biased dataset on the difference in psychological characteristics of gender-affiliated queries.
 <table class="tg">
 <thead>
   <tr>
@@ -161,7 +161,7 @@ In order measure bias we use three widely adopted psychological and stereotypica
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0229</span></td>
   </tr>
   <tr>
-    <td class="tg-c3ow" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Augmented Dataset</span></td>
+    <td class="tg-c3ow" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">De-biased Dataset</span></td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0304</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0730</span></td>
@@ -184,17 +184,17 @@ In order measure bias we use three widely adopted psychological and stereotypica
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">%Reduction</span></td>
-    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">34.33%</span></td>
-    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">18.03%</span></td>
-    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">7.34%</span></td>
-    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">12.19%</span></td>
+    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">36.00%</span></td>
+    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">18.13%</span></td>
+    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">7.37%</span></td>
+    <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">12.22%</span></td>
   </tr>
 </tbody>
 </table>
 
 In the second approach, we adopt another gender bias measurement strategy and use the method proposed by Navid Rekabsaz and LIWC toolkit to calculate bias among the top-10 retreived list of documents for queries and report the results in Table 4. 
 
-#### Table 4: The impact of training BERT-base-uncased on the augmented dataset on proxy measures of bias based on different neutral query sets.
+#### Table 4: The impact of training BERT-base-uncased on the de-biased dataset on proxy measures of bias based on different neutral query sets.
 <table class="tg">
 <thead>
   <tr>
@@ -226,11 +226,11 @@ In the second approach, we adopt another gender bias measurement strategy and us
     <td class="tg-baqh">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Augmented Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_augmented_dataset_25.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_augmented_dataset_25.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.059</td>
     <td class="tg-baqh">18.05%</td>
     <td class="tg-baqh">0.049</td>
-    <td class="tg-baqh">16.49%</td>
+    <td class="tg-baqh">16.95%</td>
     <td class="tg-baqh">0.0110</td>
     <td class="tg-baqh">5.98%</td>
   </tr>
@@ -245,20 +245,20 @@ In the second approach, we adopt another gender bias measurement strategy and us
     <td class="tg-baqh">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Augmented Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.019</td>
     <td class="tg-baqh">34.48%</td>
     <td class="tg-baqh">0.011</td>
     <td class="tg-baqh">35.29%</td>
     <td class="tg-baqh">0.0057</td>
-    <td class="tg-baqh">5.00%</td>
+    <td class="tg-baqh">16.67%</td>
   </tr>
 </tbody>
 </table>
 
-We further compare our work with the state of the art method that proposes an adversarial approach to reduce bias in neural rankers, known as [ADVBERT](https://arxiv.org/pdf/2104.13640.pdf). As suggested in their paper, we adopt the BERT-tiny model and train it based on the adversarial method proposed by the authors over the original MS MARCO dataset. We additionally, train the same BERT-tiny model without adversarial training on the original MS MARCO dataset as well as our proposed augmented dataset. In Table 5, we compare the retrieval effectiveness and proxy measures of bias based on ARaB for the three models and across two datasets.
+We further compare our work with the state of the art method that proposes an adversarial approach to reduce bias in neural rankers, known as [ADVBERT](https://arxiv.org/pdf/2104.13640.pdf). As suggested in their paper, we adopt the BERT-tiny model and train it based on the adversarial method proposed by the authors over the original MS MARCO dataset. We additionally, train the same BERT-tiny model without adversarial training on the original MS MARCO dataset as well as our proposed de-biased dataset. In Table 5, we compare the retrieval effectiveness and proxy measures of bias based on ARaB for the three models and across two datasets.
 
-#### Table 5: Comparative Analysis between BERT-Tiny trained on the augmented dataset and ADVBERT Model
+#### Table 5: Comparative Analysis between BERT-Tiny trained on the de-biased dataset and ADVBERT Model
 <table class="tg">
 <thead>
   <tr>
@@ -292,12 +292,12 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Augmented Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_augmented_dataset_25.trec"> (Run)</td>
+    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_augmented_dataset_25.trec"> (Run)</td>
     <td class="tg-c3ow">0.199</td>
     <td class="tg-c3ow">0.047</td>
     <td class="tg-c3ow">38.15%</td>
     <td class="tg-c3ow">0.0428</td>
-    <td class="tg-c3ow">32.08%</td>
+    <td class="tg-c3ow">32.06%</td>
     <td class="tg-c3ow">0.0108</td>
     <td class="tg-c3ow">10.74%</td>
   </tr>
@@ -307,9 +307,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-baqh">0.064</td>
     <td class="tg-baqh">15.78%</td>
     <td class="tg-baqh">0.05884</td>
-    <td class="tg-baqh">7.41%</td>
+    <td class="tg-baqh">7.30%</td>
     <td class="tg-baqh">0.0091</td>
-    <td class="tg-baqh">25.08%</td>
+    <td class="tg-baqh">24.79%</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="3"><a href="https://github.com/CPJKU/FairnessRetrievalResults/blob/main/resources/fairnesssensitive_queries/msmarco_passage.dev.fair.tsv" target="_top">215 Social Problematic Queries</td>
@@ -323,12 +323,12 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Augmented Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_augmented_dataset_0.25.trec"> (Run)</td>
+    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_augmented_dataset_0.25.trec"> (Run)</td>
     <td class="tg-c3ow">0.163</td>
     <td class="tg-c3ow">0.001</td>
     <td class="tg-c3ow">79.19%</td>
     <td class="tg-c3ow">0.0002</td>
-    <td class="tg-c3ow">96.81%</td>
+    <td class="tg-c3ow">97.01%</td>
     <td class="tg-c3ow">0.0048</td>
     <td class="tg-c3ow">11.11%</td>
   </tr>
@@ -336,9 +336,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-0lax">ADVBERT <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/ADVBERT_tiny.trec"> (Run)</td>
     <td class="tg-baqh">0.149</td>
     <td class="tg-baqh">0.009</td>
-    <td class="tg-baqh">-85.90%</td>
+    <td class="tg-baqh">-85.98%</td>
     <td class="tg-baqh">0.0076</td>
-    <td class="tg-baqh">-13.88%</td>
+    <td class="tg-baqh">-16.67%</td>
     <td class="tg-baqh">0.0046</td>
     <td class="tg-baqh">14.81%</td>
   </tr>
@@ -348,7 +348,7 @@ We further compare our work with the state of the art method that proposes an ad
 ## Resources
 We release the run files, BERT models fine-tuned on all the dataset, our proposed balanced query-document pairs, and the codes for bias measurement to help the community reproduce our results. Due to the file size limitations, fine-tuned models and some of the run files are uploaded [here](https://drive.google.com/file/d/1fDply69C8_csrEe-99ZtweopHbgycbMa/view?usp=sharing).
 ## Usage
-##### In order to achieve a balanced set of query_document pairs and train models on the augmented dataset, one should replicate the following steps:
+##### In order to achieve a balanced set of query_document pairs and train models on the de-biased dataset, one should replicate the following steps:
 
 1. In order to generate queries for all the documents in the collection, you need to use a T5 transformer model that is capable of generating queries for a given document. For this purpose, you can use the instruction provided in the github repository of [docTTTTTquery](https://github.com/castorini/docTTTTTquery).
 
