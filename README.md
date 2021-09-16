@@ -286,9 +286,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">0.219</td>
     <td class="tg-c3ow">0.076</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0630</td>
+    <td class="tg-c3ow">0.063</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0121</td>
+    <td class="tg-c3ow">0.012</td>
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
@@ -296,9 +296,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">0.199</td>
     <td class="tg-c3ow">0.047</td>
     <td class="tg-c3ow">38.15%</td>
-    <td class="tg-c3ow">0.0428</td>
+    <td class="tg-c3ow">0.042</td>
     <td class="tg-c3ow">32.06%</td>
-    <td class="tg-c3ow">0.0108</td>
+    <td class="tg-c3ow">0.010</td>
     <td class="tg-c3ow">10.74%</td>
   </tr>
   <tr>
@@ -306,9 +306,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-baqh">0.189</td>
     <td class="tg-baqh">0.064</td>
     <td class="tg-baqh">15.78%</td>
-    <td class="tg-baqh">0.05884</td>
+    <td class="tg-baqh">0.058</td>
     <td class="tg-baqh">7.30%</td>
-    <td class="tg-baqh">0.0091</td>
+    <td class="tg-baqh">0.009</td>
     <td class="tg-baqh">24.79%</td>
   </tr>
   <tr>
@@ -317,9 +317,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">0.162</td>
     <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0067</td>
+    <td class="tg-c3ow">0.006</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0054</td>
+    <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
@@ -327,9 +327,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-c3ow">0.163</td>
     <td class="tg-c3ow">0.001</td>
     <td class="tg-c3ow">79.19%</td>
-    <td class="tg-c3ow">0.0002</td>
+    <td class="tg-c3ow">0.000</td>
     <td class="tg-c3ow">97.01%</td>
-    <td class="tg-c3ow">0.0048</td>
+    <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">11.11%</td>
   </tr>
   <tr>
@@ -337,9 +337,9 @@ We further compare our work with the state of the art method that proposes an ad
     <td class="tg-baqh">0.149</td>
     <td class="tg-baqh">0.009</td>
     <td class="tg-baqh">-85.98%</td>
-    <td class="tg-baqh">0.0076</td>
+    <td class="tg-baqh">0.007</td>
     <td class="tg-baqh">-16.67%</td>
-    <td class="tg-baqh">0.0046</td>
+    <td class="tg-baqh">0.005</td>
     <td class="tg-baqh">14.81%</td>
   </tr>
 </tbody>
