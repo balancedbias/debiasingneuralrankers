@@ -376,7 +376,7 @@ python inference.py \
 ```
 python MRR_calculator.py -qrels path_to_qrels_file.trec path_to_run_file.trec -run path_to_run_file.trec
 ```
-2. You can also measure the level of psychological characteristics among the top 10 documents of female and male queries using [measure_psycho_attributes.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_psycho_attributes.py):
+2. You can also measure the level of psychological characteristics among the top 10 documents of female and male queries using [measure_psycho_attributes.py](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_psycho_attributes.py):
 ```
 python measure_psycho_attributes.py -run path_to_run_file.trec -res path_to_results_dir.csv
 ```
