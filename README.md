@@ -37,7 +37,7 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">how long before you can get pregnant</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Most couples can conceive in about a three month period of time. The factors that can slow down the process include older age, medical conditions or lifestyle habits that reduce fertility. Here is the average conception times: 30\% of couples get pregnant in one menstrual cycle.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Most couples can conceive in about a three month period of time. The factors that can slow down the process include older age, medical conditions or lifestyle habits that reduce fertility. Here is the average conception times: 30% of couples get pregnant in one menstrual cycle.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 3</span></td>
@@ -54,12 +54,12 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 4</span></td>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">vess carlos worth</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$15 Million. Bryan Baeumler net worth: Brian Baeumler is a Canadian entrepreneur and TV star who has net worth of \$15 million dollars.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">$15 Million. Bryan Baeumler net worth: Brian Baeumler is a Canadian entrepreneur and TV star who has net worth of $15 million dollars.</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">lesley stahl net worth</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lesley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of \$20 million dollars.Lesley Stahl was born in Lynn, Massachusetts, and went on to graduate from Wheaton College.esley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lesley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.Lesley Stahl was born in Lynn, Massachusetts, and went on to graduate from Wheaton College.esley Stahl net worth: Lesley Stahl is an American television journalist who has a net worth of $20 million dollars.</span></td>
   </tr>
  <tr>
     <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sample Pair 5</span></td>
@@ -76,7 +76,7 @@ As you can see, Table 1 shows some examples of balanced query-document pairs. In
 </table>
 
 ## Utility
-We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10\% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15\% of the size of the MS MARCO small training set. Based on the de-biased datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed de-biased datasets and compare their effectiveness in Table 2.
+We now show how combining our proposed query-document pairs with existing gold standard relevance judgement datasets can lead to the training of less biased neural rankers that have competitive retrieval effectiveness. For this purpose, we augment the small training set of MS MARCO with data from our generated query-document pairs using different ratios with 10% increments. For instance, a 15% ratio would mean that we augment the MS MARCO training set with an additional n query-document pairs from our dataset where n is equivalent to 15% of the size of the MS MARCO small training set. Based on the de-biased datasets, we leverage the BERT-base-uncased transformer model for passage ranking  and train it on the original dataset, i.e., the small training set of MS MARCO, as well as the newly developed de-biased datasets and compare their effectiveness in Table 2.
 
 #### Table 2: Model effectiveness on de-biased datasets. * indicates statistically significant decrease in effectiveness.
 <table class="tg">
@@ -140,14 +140,14 @@ In order measure bias we use three widely adopted psychological and stereotypica
   <tr>
     <td class="tg-0lax" rowspan="7">BERT-base-uncased</td>
     <td class="tg-c3ow" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Original Dataset </span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0315</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0725</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0545</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0600</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/male_affiliated_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/male_affiliated_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0290</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0521</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0641</span></td>
@@ -162,14 +162,14 @@ In order measure bias we use three widely adopted psychological and stereotypica
   </tr>
   <tr>
     <td class="tg-c3ow" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">De-biased Dataset</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href = https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0304</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0730</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0536</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0546</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/male_affiliated_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Male </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/male_affiliated_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0288</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0563</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0624</span></td>
@@ -217,7 +217,7 @@ In the second approach, we adopt another gender bias measurement strategy and us
   <tr>
     <td class="tg-0lax" rowspan="4">BERT-base-uncased</td>
     <td class="tg-0lax" rowspan="2"><a href="https:https://github.com/navid-rekabsaz/GenderBias_IR/blob/master/resources/queries_gender_annotated.csv" target="_top">1765 Neutral Queries</td>
-    <td class="tg-0lax">Original Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">Original Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.072</td>
     <td class="tg-baqh">-</td>
     <td class="tg-baqh">0.059</td>
@@ -226,7 +226,7 @@ In the second approach, we adopt another gender bias measurement strategy and us
     <td class="tg-baqh">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_augmented_dataset_25.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/1765_neutral_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.059</td>
     <td class="tg-baqh">18.05%</td>
     <td class="tg-baqh">0.049</td>
@@ -236,7 +236,7 @@ In the second approach, we adopt another gender bias measurement strategy and us
   </tr>
   <tr>
     <td class="tg-0lax" rowspan="2"><a href="https://github.com/CPJKU/FairnessRetrievalResults/blob/main/resources/fairnesssensitive_queries/msmarco_passage.dev.fair.tsv" target="_top">215 Social Problematic Queries</td>
-    <td class="tg-0lax">Original Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">Original Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_original_dataset.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.029</td>
     <td class="tg-baqh">-</td>
     <td class="tg-baqh">0.017</td>
@@ -245,7 +245,7 @@ In the second approach, we adopt another gender bias measurement strategy and us
     <td class="tg-baqh">-</td>
   </tr>
   <tr>
-    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_augmented_dataset_0.25.trec" target="_top"> (Run)</td>
+    <td class="tg-0lax">De-biased Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/215_neutral_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-baqh">0.019</td>
     <td class="tg-baqh">34.48%</td>
     <td class="tg-baqh">0.011</td>
@@ -282,64 +282,64 @@ We further compare our work with the state of the art method that proposes an ad
   <tr>
     <td class="tg-0pky" rowspan="6">BERT-Tiny</td>
     <td class="tg-0pky" rowspan="3"><a href="https:https://github.com/navid-rekabsaz/GenderBias_IR/blob/master/resources/queries_gender_annotated.csv" target="_top">1765 Neutral Queries</td>
-    <td class="tg-0pky">Original Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_original_dataset.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky">Original Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_original_dataset.trec" target="_top"> (Run)</td>
     <td class="tg-c3ow">0.219</td>
     <td class="tg-c3ow">0.076</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0630</td>
+    <td class="tg-c3ow">0.063</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0121</td>
+    <td class="tg-c3ow">0.012</td>
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_augmented_dataset_25.trec"> (Run)</td>
+    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/1765_neutral_queries/bert_tiny_debiased_dataset_0.25.trec"> (Run)</td>
     <td class="tg-c3ow">0.199</td>
     <td class="tg-c3ow">0.047</td>
     <td class="tg-c3ow">38.15%</td>
-    <td class="tg-c3ow">0.0428</td>
+    <td class="tg-c3ow">0.042</td>
     <td class="tg-c3ow">32.06%</td>
-    <td class="tg-c3ow">0.0108</td>
+    <td class="tg-c3ow">0.010</td>
     <td class="tg-c3ow">10.74%</td>
   </tr>
   <tr>
-    <td class="tg-0lax">ADVBERT <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/1765_neutral_queries/ADVBERT_tiny.trec"> (Run)</td>
+    <td class="tg-0lax">ADVBERT <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/1765_neutral_queries/ADVBERT_tiny.trec"> (Run)</td>
     <td class="tg-baqh">0.189</td>
     <td class="tg-baqh">0.064</td>
     <td class="tg-baqh">15.78%</td>
-    <td class="tg-baqh">0.05884</td>
+    <td class="tg-baqh">0.058</td>
     <td class="tg-baqh">7.30%</td>
-    <td class="tg-baqh">0.0091</td>
+    <td class="tg-baqh">0.009</td>
     <td class="tg-baqh">24.79%</td>
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="3"><a href="https://github.com/CPJKU/FairnessRetrievalResults/blob/main/resources/fairnesssensitive_queries/msmarco_passage.dev.fair.tsv" target="_top">215 Social Problematic Queries</td>
-    <td class="tg-0pky">Original Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_original_dataset.trec"> (Run)</td>
+    <td class="tg-0pky">Original Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_original_dataset.trec"> (Run)</td>
     <td class="tg-c3ow">0.162</td>
     <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0067</td>
+    <td class="tg-c3ow">0.006</td>
     <td class="tg-c3ow">-</td>
-    <td class="tg-c3ow">0.0054</td>
+    <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">-</td>
   </tr>
   <tr>
-    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_augmented_dataset_0.25.trec"> (Run)</td>
+    <td class="tg-0pky">De-biased Dataset <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/215_neutral_queries/bert_tiny_debiased_dataset_0.25.trec"> (Run)</td>
     <td class="tg-c3ow">0.163</td>
     <td class="tg-c3ow">0.001</td>
     <td class="tg-c3ow">79.19%</td>
-    <td class="tg-c3ow">0.0002</td>
+    <td class="tg-c3ow">0.000</td>
     <td class="tg-c3ow">97.01%</td>
-    <td class="tg-c3ow">0.0048</td>
+    <td class="tg-c3ow">0.005</td>
     <td class="tg-c3ow">11.11%</td>
   </tr>
   <tr>
-    <td class="tg-0lax">ADVBERT <a href="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/results/trec_runs/215_neutral_queries/ADVBERT_tiny.trec"> (Run)</td>
+    <td class="tg-0lax">ADVBERT <a href="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/215_neutral_queries/ADVBERT_tiny.trec"> (Run)</td>
     <td class="tg-baqh">0.149</td>
     <td class="tg-baqh">0.009</td>
     <td class="tg-baqh">-85.98%</td>
-    <td class="tg-baqh">0.0076</td>
+    <td class="tg-baqh">0.007</td>
     <td class="tg-baqh">-16.67%</td>
-    <td class="tg-baqh">0.0046</td>
+    <td class="tg-baqh">0.005</td>
     <td class="tg-baqh">14.81%</td>
   </tr>
 </tbody>
@@ -354,7 +354,7 @@ We release the run files, BERT models fine-tuned on all the dataset, our propose
 
 2. Having the query-document pairs, you need to identify the gender associated with each pair. To this end, you need to use the BERT classification model that is fine-tuned for the query gender identification task. You can access the fine-tuned model and all the resources [here](https://github.com/aminbigdeli/gender-bias-in-relevance-judgements) and identify the gender of generated queries associated with each document.
 3. Now, in order to find the documents that share similar level of psychological characteristics, you need to use [LIWC](http://liwc.wpengine.com/) toolkit and represent each document by a vector of its pyschological attributes.
-4. Finally, having the psychological vector representation for each male and female query-document pairs in the collection, you can use [`find_similar_pairs.py`](https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/src/find_similar_pairs.py) to find the pairs that share similar level of psychological characteristics.
+4. Finally, having the psychological vector representation for each male and female query-document pairs in the collection, you can use [`find_similar_pairs.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/find_similar_pairs.py) to find the pairs that share similar level of psychological characteristics.
 5. In order to adopt BERT transformer models and use it for passage ranking task, you should clone [OpenMatch](https://github.com/thunlp/OpenMatch) repository and train BERT-base-uncased model with the following config.
 ```
 python inference.py \
@@ -377,8 +377,8 @@ python inference.py \
 tools/eval/trec_eval.9.0.4/trec_eval -c -mrecall.1000 -mmap \
  path_to_qrels_file.trec path_to_run_file.trec
 ```
-2. You can also measure the level of psychological characteristics among the top 10 documents of female and male queries using [`measure_psycho_attributes.py`](https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/src/LIWC/measure_liwc.py):
+2. You can also measure the level of psychological characteristics among the top 10 documents of female and male queries using [measure_psycho_attributes.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_psycho_attributes.py):
 ```
 python `measure_psycho_attributes.py -run path_to_run_file.trec -res path_to_results_dir.csv
 ```
-3. In order to measure gender biases within the top 10 documents of neutral queries you can use [`runs_calculate_bias.py`](https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/src/ARaB/runs_calculate_bias.py) and [`model_calculate_bias.py`](https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/src/ARaB/model_calculate_bias.py) scripts for calculating the TF ARab and TF Boolean metrics introduced in Do Neural Ranking Models Intensify Gender Bias? . In addition, to measure the male affiliation and female affiliatition within the top 10 documents of neutral queries using LIWC toolkit, you can use [`measure_male_female_affiliation.py`](https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/src/LIWC/male_female_affiliation.py).
+3. In order to measure gender biases within the top 10 documents of neutral queries you can use [`runs_calculate_bias.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/ARaB/runs_calculate_bias.py) and [`model_calculate_bias.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/ARaB/model_calculate_bias.py) scripts for calculating the TF ARab and TF Boolean metrics introduced in Do Neural Ranking Models Intensify Gender Bias? . In addition, to measure the male affiliation and female affiliatition within the top 10 documents of neutral queries using LIWC toolkit, you can use [`measure_male_female_affiliation.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_male_female_affiliation.py).
