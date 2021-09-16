@@ -2,7 +2,7 @@
 This repository contains the code and resources for our proposed approach to create a balanced relevance-judgment collection that diminishes the bias conveyed to neural rankers. The main focus of this approach is to propose an automated method to generate pairs of query and relevant documents that have controlled degrees of bias. Figure below shows our proposed methodology.
 
 <p align="center">
-  <img src="https://github.com/biasaware/balanced-relevance-judgment-collection/blob/main/methodology.png">
+  <img src="https://github.com/balancedbias/debiasingneuralrankers/blob/89eb6e9a8abedf53ba5f387300175558dae38f60/Methodology.png">
 </p>
 
 As you can see, Table 1 shows some examples of balanced query-document pairs. In this table each female and male document-pairs share similar level of psychological characteristics in their passages.
