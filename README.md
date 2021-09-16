@@ -374,11 +374,10 @@ python inference.py \
 ##### In order to evaluate the performance of the models and calculate the level of gender biases inside the retirieved documents of each run file:
 1. You can use the following command inside the [anserini](https://github.com/castorini/anserini) directory to evaluate the performance of run files ranked by the BERT-base-uncased models trained on different datasets:
 ```
-tools/eval/trec_eval.9.0.4/trec_eval -c -mrecall.1000 -mmap \
- path_to_qrels_file.trec path_to_run_file.trec
+python MRR_calculator.py -qrels path_to_qrels_file.trec path_to_run_file.trec -run path_to_run_file.trec
 ```
 2. You can also measure the level of psychological characteristics among the top 10 documents of female and male queries using [measure_psycho_attributes.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_psycho_attributes.py):
 ```
-python `measure_psycho_attributes.py -run path_to_run_file.trec -res path_to_results_dir.csv
+python measure_psycho_attributes.py -run path_to_run_file.trec -res path_to_results_dir.csv
 ```
 3. In order to measure gender biases within the top 10 documents of neutral queries you can use [`runs_calculate_bias.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/ARaB/runs_calculate_bias.py) and [`model_calculate_bias.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/ARaB/model_calculate_bias.py) scripts for calculating the TF ARab and TF Boolean metrics introduced in Do Neural Ranking Models Intensify Gender Bias? . In addition, to measure the male affiliation and female affiliatition within the top 10 documents of neutral queries using LIWC toolkit, you can use [`measure_male_female_affiliation.py`](https://github.com/balancedbias/debiasingneuralrankers/blob/main/src/LIWC/measure_male_female_affiliation.py).
