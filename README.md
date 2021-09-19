@@ -162,7 +162,7 @@ In order measure bias we use three widely adopted psychological and stereotypica
   </tr>
   <tr>
     <td class="tg-c3ow" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">De-biased Dataset</span></td>
-    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href = https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
+    <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Female </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Queries</span> <a href ="https://github.com/balancedbias/debiasingneuralrankers/blob/main/results/trec_runs/female_affiliated_queries/bert_base_uncased_debiased_dataset_0.25.trec" target="_top"> (Run)</td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0304</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0730</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0536</span></td>
