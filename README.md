@@ -86,7 +86,7 @@ We now show how combining our proposed query-document pairs with existing gold s
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Training Dataset</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Ratio</span></th>
     <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">MRR@10</span></th>
-    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">% Reduction</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Reduction (%)</span></th>
   </tr>
 </thead>
 <tbody>
@@ -183,7 +183,7 @@ In order measure bias we use three widely adopted psychological and stereotypica
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0.0201</span></td>
   </tr>
   <tr>
-    <td class="tg-c3ow" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">%Reduction</span></td>
+    <td class="tg-c3ow" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Reduction (%)</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">36.00%</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">18.13%</span></td>
     <td class="tg-dvpl"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">7.37%</span></td>
@@ -206,11 +206,11 @@ In the second approach, we adopt another gender bias measurement strategy and us
   </tr>
   <tr>
     <td class="tg-0lax">TF</td>
-    <td class="tg-0lax">TF (%)</td>
+    <td class="tg-0lax">Reduction (%)</td>
     <td class="tg-0lax">Boolean</td>
-    <td class="tg-0lax">Boolean (%)</td>
+    <td class="tg-0lax">Reduction (%)</td>
     <td class="tg-0lax">Male Female Diff</td>
-    <td class="tg-0lax"> Improvement (%)</td>
+    <td class="tg-0lax"> Reduction (%)</td>
   </tr>
 </thead>
 <tbody>
@@ -271,11 +271,11 @@ We further compare our work with the state of the art method that proposes an ad
   </tr>
   <tr>
     <td class="tg-0pky">TF</td>
-    <td class="tg-0pky">TF (%)</td>
+    <td class="tg-0pky">Reduction (%)</td>
     <td class="tg-0pky">Boolean</td>
-    <td class="tg-0pky">Boolean (%)</td>
+    <td class="tg-0pky">Reduction (%)</td>
     <td class="tg-0pky">Male Female Diff</td>
-    <td class="tg-0pky"> Improvement (%)</td>
+    <td class="tg-0pky"> Reduction (%)</td>
   </tr>
 </thead>
 <tbody>
